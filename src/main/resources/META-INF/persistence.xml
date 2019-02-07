@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.projet_gpl_war_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.projet.gpl.entites.Chainedediscussion</class>
+    <class>com.projet.gpl.entites.Configuration</class>
+    <class>com.projet.gpl.entites.Activite</class>
+    <class>com.projet.gpl.entites.Chatmsg</class>
+    <class>com.projet.gpl.entites.Projet</class>
+    <class>com.projet.gpl.entites.Paticiper</class>
+    <class>com.projet.gpl.entites.Fichier</class>
+    <class>com.projet.gpl.entites.Espacedetravail</class>
+    <class>com.projet.gpl.entites.Tache</class>
+    <class>com.projet.gpl.entites.Sysdiagrams</class>
+    <class>com.projet.gpl.entites.Rapport</class>
+    <class>com.projet.gpl.entites.Gestionnaire</class>
+    <class>com.projet.gpl.entites.Reunion</class>
+    <class>com.projet.gpl.entites.Evenement</class>
+    <class>com.projet.gpl.entites.Gestionnaire_1</class>
+    <class>com.projet.gpl.entites.Fichier_1</class>
+    <class>com.projet.gpl.entites.Projet_1</class>
+    <class>com.projet.gpl.entites.Espacedetravail_1</class>
+    <class>com.projet.gpl.entites.Utilisateur</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost\SQLSERVER08;databaseName=gpl"/>
+      <property name="javax.persistence.jdbc.user" value="ADMIN"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="123"/>
+    </properties>
+  </persistence-unit>
+</persistence>
